@@ -27,7 +27,7 @@ def daily_reminder():
         reminder = "Invalid time-bound input. Please enter 'yes' or 'no'."
 
     # Provide a customized reminder
-    print(reminder)
+    print(f"Reminder: '{reminder}' .")
 
 # Run the main function
 daily_reminder()
