@@ -1,21 +1,12 @@
-def perform_operation(num1: float, num2: float, operation: str) -> float:
-    """Perform basic arithmetic operations based on the provided operation.
+def perform_operation(num1, num2):
 
-    Args:
-        num1 (float): The first number.
-        num2 (float): The second number.
-        operation (str): The operation to perform ('add', 'subtract', 'multiply', 'divide').
-
-    Returns:
-        float or str: The result of the arithmetic operation or a message for division by zero.
-    """
-    if operation == 'add':
+    if perform_operation == 'add':
         return num1 + num2
-    elif operation == 'subtract':
+    elif perform_operation == 'subtract':
         return num1 - num2
-    elif operation == 'multiply':
+    elif perform_operation == 'multiply':
         return num1 * num2
-    elif operation == 'divide':
+    elif perform_operation == 'divide':
         if num2 == 0:
             return "Error: Division by zero is not allowed."
         else:
